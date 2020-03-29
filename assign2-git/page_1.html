@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WIP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+    <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="page_1.html" class="active">Get Started</a>
+        <a href="page_2.html">Quiz</a>
+        <a href="page_3.html">Stats</a>
+        <a href="page_4.html">About</a>
+    </div>
+
+    <div class="sidenav">
+        <br>
+        <a href="#top">Beginning</a>
+        <a href="#bottom"> End</a>
+        <a></a>
+        <a></a>
+    </div>
+
+    <div id="top">
+
+        <h1 class="h1-p1">Content</h1>
+        <img src="map.png">
+
+        <br>
+
+        <iframe id="pure_data" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSPFacLycS0QnGunts5ZNKhIk69a_gmNo8yZOXAK7Bh56i_5WI9Z-AgT2WQ0lVylN4RRKDLnMEJqHIC/pubhtml?widget=true&amp;headers=false"></iframe>
+
+    </div>
+
+    <div id="bottom">
+        <h1 class="h1-p1">End</h1>
+    </div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+
+</script>
+
+</body>
+</html>
