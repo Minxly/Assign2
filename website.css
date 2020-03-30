@@ -1,0 +1,328 @@
+body {
+    background-color: #EEE;
+    width: 1450px;
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+#header {
+    height: 100px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    background-color: #3700B3;
+
+}
+
+.h5-ind {
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+}
+
+#top_main {
+    height: 350px;
+}
+
+#bottom_main {
+    height: 300px;
+}
+
+.h1-ind {
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#main {
+    width: 1475px;
+    height: 700px;
+    margin-top 0px;
+}
+
+
+#footer {
+    height: 75px;
+    background-color: # ;
+    margin: 0px;
+
+}
+
+.h3-ind {
+    color: #3700B3;
+    text-align: center;
+    font-size: 22px;
+}
+
+#get_started {
+    border-style: outset;
+    border-radius: 15px;
+    background: #FFFFFF;
+    padding: 20px;
+    width: 500px;
+    height: 225px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+#quiz-go {
+    border-style: outset;
+    border-radius: 15px;
+    background: #FFFFFF;
+    padding: 20px;
+    width: 500px;
+    height: 225px;
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+#information {
+    border-style: outset;
+    border-radius: 15px;
+    background: #FFFFFF;
+    padding: 20px;
+    width: 500px;
+    height: 225px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+#about {
+    border-style: outset;
+    border-radius: 15px;
+    background: #FFFFFF;
+    padding: 20px;
+    width: 500px;
+    height: 225px;
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #3700B3;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.active {
+    background-color: #2b1677;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    font-size: 24px;
+    padding: 7px 25px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: white;
+    background-color: #3700B3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: relative;
+    left: 43%;
+    top: 70px;
+}
+
+.button:hover {background-color: #333334d}
+
+.button:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.sidenav {
+  height: 100%;
+  width: 168px;
+  position: fixed;
+  z-index: 1;
+  top: 46px;
+  left: 0;
+  background-color: #C2C2C2;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 0px 26px 6px 28px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#top-side-nav {
+    width: 140px;
+    padding-left: 12px;
+}
+
+#top-side-nav-2 {
+    width: 140px;
+    padding-left: 12px;
+}
+
+#top {
+    padding-top: 75px;
+    padding-left: 170px;
+    height: 2000px;
+}
+
+#bottom {
+    padding-left: 170px;
+}
+
+.h1-p1 {
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.h5-p1 {
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.h1-p1-3 {
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.h5-p1-3 {
+    color: #000000;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+#quiz-main {
+    border-style: solid;
+    border-color: #000000;
+    background: #FFFFFF
+    padding: 20px;
+    width: 800px;
+    height: 550px;
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+#pure_data {
+    padding-left: 115px;
+    width: 1050px;
+    height: 1500px;
+    border-style: none;
+}
+
+#map_search {
+    padding-top: 0px;
+    padding-left: 220px;
+    width: 850px;
+    height: 500px;
+    border-style: none;
+}
+
+{
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 200px;
+}
+
+#mysearch {
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    display: block;
+    padding: 0px;
+}
+
+.button-3 {
+    display: inline-block;
+    font-size: 17px;
+    padding: 4px 13px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: white;
+    background-color: #3700B3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: relative;
+    left: 47%;
+    top: 10px;
+}
+
+.button-3:hover {background-color: #333334d}
+
+.button-3:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#results {
+    font-size: 15px;
+    text-align: center;
+}
+
+.normal {
+    text-align: center;
+}
+
